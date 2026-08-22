@@ -1,0 +1,21 @@
+# Core deep-learning stack
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Data handling and metrics
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Image processing and augmentation
+opencv-python>=4.8.0
+albumentations>=1.4.0,<2.0.0     # 2.x renames ShiftScaleRotate/GaussNoise arguments
+Pillow>=10.0.0
+
+# Figures
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# Optional: FLOP counting for Table VI (measurement is skipped if absent)
+thop>=0.1.1
